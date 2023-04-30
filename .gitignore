@@ -4,6 +4,7 @@
 *.iws
 out
 data
+secrets
 
 # Mac
 .DS_Store

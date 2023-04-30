@@ -1,0 +1,23 @@
+{
+  "verifierUiUrl": "http://localhost:8081",
+  "verifierApiUrl": "http://localhost:8080/verifier-api/default",
+  "additionalPolicies": [
+  ],
+  "wallets": {
+    "waltid": {
+      "id": "waltid",
+      "url": "http://localhost:8080",
+      "presentPath": "api/siop/initiatePresentation/",
+      "receivePath" : "api/siop/initiateIssuance/",
+      "description": "walt.id web wallet"
+    },
+    "local": {
+      "id": "local",
+      "url": "http://localhost:8080",
+      "presentPath": "api/siop/initiatePresentation/",
+      "receivePath" : "api/siop/initiateIssuance/",
+      "description": "local wallet"
+    }
+  },
+  "allowedWebhookHosts": [ "http://localhost", "http://wallet.local" ]
+}

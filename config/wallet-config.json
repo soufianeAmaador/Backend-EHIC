@@ -1,0 +1,16 @@
+{
+  "walletUiUrl": "http://localhost:4201",
+  "walletApiUrl": "http://localhost:8080/api",
+  "issuers": {
+    "waltid": {
+      "id": "waltid",
+      "url": "http://localhost:8080/issuer-api/default/oidc",
+      "description": "walt.id Issuer Portal"
+    },
+    "onboarding@walt.id": {
+      "id": "onboarding@walt.id",
+      "url": "http://localhost:8080/onboarding-api/oidc",
+      "description": "walt.id On-Boarding service"
+    }
+  }
+}

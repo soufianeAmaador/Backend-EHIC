@@ -6,6 +6,7 @@ out
 data
 secrets/
 secret*
+keys
 
 # Mac
 .DS_Store
